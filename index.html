@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu_item"><a href="#">BANHO <A> </a><li> 
+                <li class="lista-menu_item"><a href="#">RAÇAO <A> </a><li>
+                <li class="lista-menu_item"><a href="#">ASSESORIOS <A> </a><li>
+                <li class="lista-menu_item"><a href="#">MEDICAMENTOS E VET <A> </a><li>
+                <li class="lista-menu_item"><a href="#">COLEIRAS<A> </a><li>
+                <li class="lista-menu_item"><a href="#">GAIOLAS E CAIXAS <A> </a><li>
+                <li class="lista-menu_item"><a href="#">TOSA <A> </a><li>
+                <li class="lista-menu_item"><a href="#">SHAMPOOS <A> </a><li>
+                <li class="lista-menu_item"><a href="#">PEIXES E ETC<A> </a><li>
+                </ul>
+
+           <a href="#"><img class="container__imagem" src="img/pet shop.jpg" alt="SUPERCARROS"></a>
+           <h1 class="titulo__cabecalho">LUCHINI DOGS</h1>
+        </div>
+        <div class="container">
+           <a href="#"><img class="container__imagem" src="img/Favoritos.svg" alt="meus Favoritos"></a>
+           <a href="#"><img class="container__imagem" src="img/Emprestimos.svg" alt="meus empréstimos"></a>
+           <a href="#"><img class="container__imagem" src="img/Usuario.svg" alt="meu perfil"></a>
+        </div>
+    </header>
+    <section class="gridimg">
+        <div class="div-todasimagens">
+            <span>
+            </span>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/dog1.jpg" alt="">
+                <h1 class="titulo">ME ADOTE</h1>
+            </div>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/dog2.jpg" alt="">
+                <h1 class="titulo">ME ADOTE</h1>
+            </div>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/dog3.jpg" alt="">
+                <h1 class="titulo">ME ADOTE</h1>
+            </div>
+            <span>
+            </span>
+            <span>
+            </span>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/dog4.jpg" alt="">
+                <h1 class="titulo">ME ADOTE</h1>
+            </div>
+    
+            <div class="div-imagem">
+                <img class="Imagem" src="img/dog5.jpg" alt="">
+                <h1 class="titulo">ME ADOTE</h1>
+            </div>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/dog6.jpg" alt="">
+                <h1 class="titulo">ME ADOTE</h1>
+            </div>
+            <span>
+            </span>
+            <span>
+            </span>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/dog7.jpg" alt="">
+                <h1 class="titulo">ME ADOTE</h1>
+            </div>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/dog8.jpg" alt="">
+                <h1 class="titulo">ME ADOTE</h1>
+            </div>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/dog9.jpg" alt="">
+                <h1 class="titulo">ME ADOTE</h1>
+            </div>
+        </div>
+
+    </section>
+<section class="carrossel">
+    <h2 class="carrossel__titulo">Outros produtos</h2>
+    <!-- Slider main container -->
+     <div class="swiper">
+     <!-- Additional required wrapper -->
+     <div class="swiper-wrapper">
+       <!-- Slides -->
+       <div class="swiper-slide"><img src="img/Rectangle 1.svg" alt=""></div>
+       <div class="swiper-slide"><img src="img/Rectangle 9.svg" alt=""></div>
+       <div class="swiper-slide"><img src="img/Rectangle 3.svg" alt=""></div>
+       <div class="swiper-slide"><img src="img/Rectangle 4.svg" alt=""></div>
+       <div class="swiper-slide"><img src="img/Rectangle 5.svg" alt=""></div>
+       <div class="swiper-slide"><img src="img/Rectangle 6.svg" alt=""></div>
+       <div class="swiper-slide"><img src="img/Rectangle 7.svg" alt=""></div>
+       <div class="swiper-slide"><img src="img/Rectangle 8.svg" alt=""></div>
+     </div>
+     <!-- If we need pagination -->
+     <div class="swiper-pagination"></div>
+   
+     <!-- If we need navigation buttons -->
+     <div class="swiper-button-prev"></div>
+     <div class="swiper-button-next"></div>
+   
+     <!-- If we need scrollbar -->
+     <div class="swiper-scrollbar"></div>
+   </div>
+</section>
+<footer>
+    <ul class="rodape"> <p>colegio costa e silva</p> </ul>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+          spaceBetween: 10,
+          slidesPerView:3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+      });
+    </script>
+    </section>
+</body>
+</html>
